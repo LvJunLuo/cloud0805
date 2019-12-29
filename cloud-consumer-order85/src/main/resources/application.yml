@@ -1,0 +1,10 @@
+server:
+  port: 85
+
+spring:
+  application:
+    name: nacos-order-consumer # 消费者注册进nacos自己叫什么名字
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
